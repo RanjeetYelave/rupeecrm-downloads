@@ -113,9 +113,13 @@
     const version = data.latest_version;
     const dateFormatted = formatDate(data.latest_release_date);
 
-    // Hero badge
+    // Hero badge & Footer version
     if (heroVersionBadge) {
       heroVersionBadge.textContent = `v${version}`;
+    }
+    const footerVersion = document.getElementById('footer-version');
+    if (footerVersion) {
+      footerVersion.textContent = `v${version}`;
     }
 
     // Windows
@@ -242,31 +246,40 @@
     }
   }
 
-  // Screenshot Gallery Navigation & Lightbox
+  // Screenshot Gallery Navigation, Category Filtering & Lightbox
   function initGallery() {
-    const galleryBtns = document.querySelectorAll('.gallery-btn');
-    const galleryItems = document.querySelectorAll('.gallery-item');
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.gallery-card');
     const modal = document.getElementById('lightbox-modal');
     const modalImg = document.getElementById('lightbox-img');
     const modalClose = document.getElementById('lightbox-close');
 
-    galleryBtns.forEach(btn => {
+    // Filter by Category
+    filterBtns.forEach(btn => {
       btn.addEventListener('click', () => {
-        const target = btn.getAttribute('data-target');
-        galleryBtns.forEach(b => b.classList.remove('active'));
-        galleryItems.forEach(i => i.classList.remove('active'));
+        const cat = btn.getAttribute('data-filter');
+        filterBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        const activeItem = document.getElementById(`gallery-${target}`);
-        if (activeItem) activeItem.classList.add('active');
+
+        cards.forEach(card => {
+          if (cat === 'all' || card.getAttribute('data-category') === cat) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
       });
     });
 
     // Lightbox triggers
-    document.querySelectorAll('.gallery-item img, .preview-img').forEach(img => {
-      img.addEventListener('click', () => {
+    document.querySelectorAll('.gallery-card, .preview-img').forEach(elem => {
+      elem.addEventListener('click', () => {
         if (!modal || !modalImg) return;
-        modalImg.src = img.src;
-        modal.classList.add('active');
+        const img = elem.tagName === 'IMG' ? elem : elem.querySelector('img');
+        if (img) {
+          modalImg.src = img.src;
+          modal.classList.add('active');
+        }
       });
     });
 
@@ -281,6 +294,12 @@
         if (e.target === modal) modal.classList.remove('active');
       });
     }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal && modal.classList.contains('active')) {
+        modal.classList.remove('active');
+      }
+    });
   }
 
   // Mobile Nav Toggle
