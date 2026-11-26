@@ -1,0 +1,461 @@
+{
+  "generated_at": "2026-11-25T13:23:32Z",
+  "latest_version": "1.0.398",
+  "latest_tag": "v1.0.398",
+  "latest_release_date": "2026-11-25T13:23:32Z",
+  "latest_release_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.398",
+  "latest_downloads": {
+    "windows": {
+      "available": true,
+      "filename": "RupeeCRM-Setup-1.0.398-x64.exe",
+      "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-Setup-1.0.398-x64.exe",
+      "size": "323.6 MB",
+      "bytes": 339341465,
+      "arch": "64-bit (x64)",
+      "sha256": "5e22dbba36297332a6985da54aab16c82fb54bd12c50c5945cb6caa3e4262c7a",
+      "type": "Standalone Executable Setup"
+    },
+    "mac_arm64": {
+      "available": true,
+      "filename": "RupeeCRM-1.0.398-arm64.dmg",
+      "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-1.0.398-arm64.dmg",
+      "size": "368.4 MB",
+      "bytes": 386285213,
+      "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+      "sha256": "acc04759289b3f0992660f227c7510f61af22f462d3194501dc64e784c68b2d4",
+      "type": "Apple Disk Image (DMG)"
+    },
+    "mac_intel": {
+      "available": false,
+      "filename": null,
+      "url": null,
+      "size": null,
+      "bytes": 0,
+      "arch": "Intel (x64)",
+      "sha256": null,
+      "type": "Apple Disk Image (DMG)"
+    }
+  },
+  "releases": [
+    {
+      "tag": "v1.0.398",
+      "version": "1.0.398",
+      "name": "RupeeCRM v1.0.398 (Build 398)",
+      "published_at": "2026-11-25T13:23:32Z",
+      "html_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.398",
+      "body": "# RupeeCRM v1.0.398 (Build 398)\n\n**Release Date:** November 25, 2026  \n**Application Version:** `v1.0.398` (Build 398)  \n**Branch:** `PROD`  \n\n---\n\n## Overview\n\nRupeeCRM v1.0.398 production release providing offline-first business management, invoicing, inventory intelligence, and CRM desktop capabilities.\n\n---\n\n## What's New\n\n- Performance optimizations, security updates, and stability improvements across all core business modules.\n\n---\n\n## Improvements\n\n- Enhanced database safety guards, tenant isolation verification, and transaction stability.\n- Optimized startup supervisor lifecycle and background resource management.\n\n---\n\n## Bug Fixes\n\n- General regression remedies and runtime stability fixes.\n\n---\n\n## Important Upgrade Notes\n\n- Customer databases, firms, licenses, and configurations are 100% preserved.\n- Automatic schema updates are applied safely and transactionally on launch.\n\n---\n\n### Downloadable Distribution Packages\n| Package Type | File | Size | SHA256 Checksum |\n|---|---|---|---|\n| **Windows x64 Installer (Versioned)** | [`RupeeCRM-Setup-1.0.398-x64.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-Setup-1.0.398-x64.exe) | `324M` | `5e22dbba36297332a6985da54aab16c82fb54bd12c50c5945cb6caa3e4262c7a\r` |\n| **Windows x64 Installer (Latest)** | [`RupeeCRM-Setup.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-Setup.exe) | `324M` | `5e22dbba36297332a6985da54aab16c82fb54bd12c50c5945cb6caa3e4262c7a\r` |\n| **macOS ARM64 DMG (Versioned)** | [`RupeeCRM-1.0.398-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-1.0.398-arm64.dmg) | `369M` | `acc04759289b3f0992660f227c7510f61af22f462d3194501dc64e784c68b2d4` |\n| **macOS ARM64 DMG (Latest)** | [`RupeeCRM-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-arm64.dmg) | `369M` | `acc04759289b3f0992660f227c7510f61af22f462d3194501dc64e784c68b2d4` |\n| **In-App OTA Application Package** | [`rupeecrm.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/rupeecrm.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Legacy OTA Package** | [`billsoft.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/billsoft.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Dedicated Manual OTA Update Package** | [`RupeeCRM-Update-1.0.398.zip`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-Update-1.0.398.zip) | `~81 MB` | See `.sha256` |\n| **Integrity Checksums** | [`SHA256SUMS.txt`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/SHA256SUMS.txt) | `<1 KB` | Checksum Manifest |\n\n### Verification (PowerShell)\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\RupeeCRM-Setup-1.0.398-x64.exe).Hash -eq \"5e22dbba36297332a6985da54aab16c82fb54bd12c50c5945cb6caa3e4262c7a\r\"\n```\n\n### Verification (macOS Terminal)\n```bash\nshasum -a 256 RupeeCRM-1.0.398-arm64.dmg\n```\n\n> [!NOTE]\n> Official stable production release v1.0.398. All distributable packages are published and downloadable.\n",
+      "is_latest_stable": true,
+      "is_prerelease": false,
+      "downloads": {
+        "windows": {
+          "available": true,
+          "filename": "RupeeCRM-Setup-1.0.398-x64.exe",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-Setup-1.0.398-x64.exe",
+          "size": "323.6 MB",
+          "bytes": 339341465,
+          "arch": "64-bit (x64)",
+          "sha256": "5e22dbba36297332a6985da54aab16c82fb54bd12c50c5945cb6caa3e4262c7a",
+          "type": "Standalone Executable Setup"
+        },
+        "mac_arm64": {
+          "available": true,
+          "filename": "RupeeCRM-1.0.398-arm64.dmg",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-1.0.398-arm64.dmg",
+          "size": "368.4 MB",
+          "bytes": 386285213,
+          "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+          "sha256": "acc04759289b3f0992660f227c7510f61af22f462d3194501dc64e784c68b2d4",
+          "type": "Apple Disk Image (DMG)"
+        },
+        "mac_intel": {
+          "available": false,
+          "filename": null,
+          "url": null,
+          "size": null,
+          "bytes": 0,
+          "arch": "Intel (x64)",
+          "sha256": null,
+          "type": "Apple Disk Image (DMG)"
+        }
+      }
+    },
+    {
+      "tag": "v1.0.397",
+      "version": "1.0.397",
+      "name": "RupeeCRM v1.0.397 (Build 397)",
+      "published_at": "2026-11-25T13:11:15Z",
+      "html_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.397",
+      "body": "# RupeeCRM v1.0.397 (Build 397)\n\n**Release Date:** November 25, 2026  \n**Application Version:** `v1.0.397` (Build 397)  \n**Branch:** `PROD`  \n\n---\n\n## Overview\n\nRupeeCRM v1.0.397 production release providing offline-first business management, invoicing, inventory intelligence, and CRM desktop capabilities.\n\n---\n\n## What's New\n\n- 🛠️ Product Page Runtime Restoration: Resolved statusFilter undefined reference in ProductIntelligenceHub, ensuring seamless catalog browsing, status filtering, and setup alerts.\n- 📈 Forecast & Movement Statement Number Formatting: Implemented canonical BillsoftUtils.formatNumber utility with localized en-IN grouping, resolving runtime exceptions during forecast and movement statement generation.\n\n---\n\n## Improvements\n\n- Enhanced database safety guards, tenant isolation verification, and transaction stability.\n- Optimized startup supervisor lifecycle and background resource management.\n\n---\n\n## Bug Fixes\n\n- General regression remedies and runtime stability fixes.\n\n---\n\n## Important Upgrade Notes\n\n- Customer databases, firms, licenses, and configurations are 100% preserved.\n- Automatic schema updates are applied safely and transactionally on launch.\n\n---\n\n### Downloadable Distribution Packages\n| Package Type | File | Size | SHA256 Checksum |\n|---|---|---|---|\n| **Windows x64 Installer (Versioned)** | [`RupeeCRM-Setup-1.0.397-x64.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.397/RupeeCRM-Setup-1.0.397-x64.exe) | `324M` | `7916059d74e11e70b6386fabafaad2ad4299b41ef2fdcdfab46ce4eb3d6c5695\r` |\n| **Windows x64 Installer (Latest)** | [`RupeeCRM-Setup.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.397/RupeeCRM-Setup.exe) | `324M` | `7916059d74e11e70b6386fabafaad2ad4299b41ef2fdcdfab46ce4eb3d6c5695\r` |\n| **macOS ARM64 DMG (Versioned)** | [`RupeeCRM-1.0.397-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.397/RupeeCRM-1.0.397-arm64.dmg) | `369M` | `496dda36b9893fd6b6b743d4af6c74d15eb4b00621f9574370bb392b10a6b8aa` |\n| **macOS ARM64 DMG (Latest)** | [`RupeeCRM-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.397/RupeeCRM-arm64.dmg) | `369M` | `496dda36b9893fd6b6b743d4af6c74d15eb4b00621f9574370bb392b10a6b8aa` |\n| **In-App OTA Application Package** | [`rupeecrm.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.397/rupeecrm.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Legacy OTA Package** | [`billsoft.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.397/billsoft.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Dedicated Manual OTA Update Package** | [`RupeeCRM-Update-1.0.397.zip`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.397/RupeeCRM-Update-1.0.397.zip) | `~81 MB` | See `.sha256` |\n| **Integrity Checksums** | [`SHA256SUMS.txt`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.397/SHA256SUMS.txt) | `<1 KB` | Checksum Manifest |\n\n### Verification (PowerShell)\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\RupeeCRM-Setup-1.0.397-x64.exe).Hash -eq \"7916059d74e11e70b6386fabafaad2ad4299b41ef2fdcdfab46ce4eb3d6c5695\r\"\n```\n\n### Verification (macOS Terminal)\n```bash\nshasum -a 256 RupeeCRM-1.0.397-arm64.dmg\n```\n\n> [!NOTE]\n> Official stable production release v1.0.397. All distributable packages are published and downloadable.\n",
+      "is_latest_stable": false,
+      "is_prerelease": false,
+      "downloads": {
+        "windows": {
+          "available": true,
+          "filename": "RupeeCRM-Setup-1.0.397-x64.exe",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.397/RupeeCRM-Setup-1.0.397-x64.exe",
+          "size": "323.6 MB",
+          "bytes": 339336640,
+          "arch": "64-bit (x64)",
+          "sha256": "7916059d74e11e70b6386fabafaad2ad4299b41ef2fdcdfab46ce4eb3d6c5695",
+          "type": "Standalone Executable Setup"
+        },
+        "mac_arm64": {
+          "available": true,
+          "filename": "RupeeCRM-1.0.397-arm64.dmg",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.397/RupeeCRM-1.0.397-arm64.dmg",
+          "size": "368.4 MB",
+          "bytes": 386321176,
+          "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+          "sha256": "496dda36b9893fd6b6b743d4af6c74d15eb4b00621f9574370bb392b10a6b8aa",
+          "type": "Apple Disk Image (DMG)"
+        },
+        "mac_intel": {
+          "available": false,
+          "filename": null,
+          "url": null,
+          "size": null,
+          "bytes": 0,
+          "arch": "Intel (x64)",
+          "sha256": null,
+          "type": "Apple Disk Image (DMG)"
+        }
+      }
+    },
+    {
+      "tag": "v1.0.396",
+      "version": "1.0.396",
+      "name": "RupeeCRM v1.0.396 (Build 396)",
+      "published_at": "2026-11-25T12:20:28Z",
+      "html_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.396",
+      "body": "# RupeeCRM v1.0.396 (Build 396)\n\n**Release Date:** November 25, 2026  \n**Application Version:** `v1.0.396` (Build 396)  \n**Branch:** `PROD`  \n\n---\n\n## Overview\n\nRupeeCRM v1.0.396 production release providing offline-first business management, invoicing, inventory intelligence, and CRM desktop capabilities.\n\n---\n\n## What's New\n\n- 📦 Partial Goods Receiving & Immutable Audit Trail: Multi-receipt tracking with pending quantity calculations, dedicated receipt ledger, and authoritative PURCHASE_RECEIPT stock movements.\n- 🔒 Transaction-Scoped Vendor Preference: Selected supplier preferences persist strictly upon successful purchase order creation, guaranteeing zero corruption from failed orders.\n- 📜 Stock Movement Statement (5th Statement Card): New comprehensive statement card in Statements & Ledgers with movement KPI ribbon, transaction audit table, and CSV download.\n- 🔍 Movement Ledger Filter Toolbar: Search, transaction type filtering, and date range controls with instant CSV export in Inventory Movement Ledger.\n- ⚡ Canonical Cross-Module Navigation: Unified navigation dispatch across Forecast Dashboard, Product Intelligence, and Order Products workspace.\n\n---\n\n## Improvements\n\n- Enhanced database safety guards, tenant isolation verification, and transaction stability.\n- Optimized startup supervisor lifecycle and background resource management.\n\n---\n\n## Bug Fixes\n\n- General regression remedies and runtime stability fixes.\n\n---\n\n## Important Upgrade Notes\n\n- Customer databases, firms, licenses, and configurations are 100% preserved.\n- Automatic schema updates are applied safely and transactionally on launch.\n\n---\n\n### Downloadable Distribution Packages\n| Package Type | File | Size | SHA256 Checksum |\n|---|---|---|---|\n| **Windows x64 Installer (Versioned)** | [`RupeeCRM-Setup-1.0.396-x64.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.396/RupeeCRM-Setup-1.0.396-x64.exe) | `324M` | `09d7c9c890dee4364cc3c94ef4d50e60171dae1544ee630a6c1b64bfd0117f97\r` |\n| **Windows x64 Installer (Latest)** | [`RupeeCRM-Setup.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.396/RupeeCRM-Setup.exe) | `324M` | `09d7c9c890dee4364cc3c94ef4d50e60171dae1544ee630a6c1b64bfd0117f97\r` |\n| **macOS ARM64 DMG (Versioned)** | [`RupeeCRM-1.0.396-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.396/RupeeCRM-1.0.396-arm64.dmg) | `369M` | `251bc0cb091a632440921ac6f3786d76ad49ece1f065bd6500795faf65a06915` |\n| **macOS ARM64 DMG (Latest)** | [`RupeeCRM-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.396/RupeeCRM-arm64.dmg) | `369M` | `251bc0cb091a632440921ac6f3786d76ad49ece1f065bd6500795faf65a06915` |\n| **In-App OTA Application Package** | [`rupeecrm.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.396/rupeecrm.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Legacy OTA Package** | [`billsoft.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.396/billsoft.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Dedicated Manual OTA Update Package** | [`RupeeCRM-Update-1.0.396.zip`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.396/RupeeCRM-Update-1.0.396.zip) | `~81 MB` | See `.sha256` |\n| **Integrity Checksums** | [`SHA256SUMS.txt`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.396/SHA256SUMS.txt) | `<1 KB` | Checksum Manifest |\n\n### Verification (PowerShell)\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\RupeeCRM-Setup-1.0.396-x64.exe).Hash -eq \"09d7c9c890dee4364cc3c94ef4d50e60171dae1544ee630a6c1b64bfd0117f97\r\"\n```\n\n### Verification (macOS Terminal)\n```bash\nshasum -a 256 RupeeCRM-1.0.396-arm64.dmg\n```\n\n> [!NOTE]\n> Official stable production release v1.0.396. All distributable packages are published and downloadable.\n",
+      "is_latest_stable": false,
+      "is_prerelease": false,
+      "downloads": {
+        "windows": {
+          "available": true,
+          "filename": "RupeeCRM-Setup-1.0.396-x64.exe",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.396/RupeeCRM-Setup-1.0.396-x64.exe",
+          "size": "323.6 MB",
+          "bytes": 339334540,
+          "arch": "64-bit (x64)",
+          "sha256": "09d7c9c890dee4364cc3c94ef4d50e60171dae1544ee630a6c1b64bfd0117f97",
+          "type": "Standalone Executable Setup"
+        },
+        "mac_arm64": {
+          "available": true,
+          "filename": "RupeeCRM-1.0.396-arm64.dmg",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.396/RupeeCRM-1.0.396-arm64.dmg",
+          "size": "368.4 MB",
+          "bytes": 386284886,
+          "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+          "sha256": "251bc0cb091a632440921ac6f3786d76ad49ece1f065bd6500795faf65a06915",
+          "type": "Apple Disk Image (DMG)"
+        },
+        "mac_intel": {
+          "available": false,
+          "filename": null,
+          "url": null,
+          "size": null,
+          "bytes": 0,
+          "arch": "Intel (x64)",
+          "sha256": null,
+          "type": "Apple Disk Image (DMG)"
+        }
+      }
+    },
+    {
+      "tag": "v1.0.395",
+      "version": "1.0.395",
+      "name": "RupeeCRM v1.0.395 (Build 395)",
+      "published_at": "2026-11-25T09:41:04Z",
+      "html_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.395",
+      "body": "# RupeeCRM v1.0.395 (Build 395)\n\n**Release Date:** November 25, 2026  \n**Application Version:** `v1.0.395` (Build 395)  \n**Branch:** `PROD`  \n\n---\n\n## Overview\n\nRupeeCRM v1.0.395 production release providing offline-first business management, invoicing, inventory intelligence, and CRM desktop capabilities.\n\n---\n\n## What's New\n\n- Performance optimizations, security updates, and stability improvements across all core business modules.\n\n---\n\n## Improvements\n\n- Enhanced database safety guards, tenant isolation verification, and transaction stability.\n- Optimized startup supervisor lifecycle and background resource management.\n\n---\n\n## Bug Fixes\n\n- General regression remedies and runtime stability fixes.\n\n---\n\n## Important Upgrade Notes\n\n- Customer databases, firms, licenses, and configurations are 100% preserved.\n- Automatic schema updates are applied safely and transactionally on launch.\n\n---\n\n### Downloadable Distribution Packages\n| Package Type | File | Size | SHA256 Checksum |\n|---|---|---|---|\n| **Windows x64 Installer (Versioned)** | [`RupeeCRM-Setup-1.0.395-x64.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.395/RupeeCRM-Setup-1.0.395-x64.exe) | `324M` | `793e9c0baaffac940fdfd38308d31198603b7c39fdf05cfe3bea26c0199be2de\r` |\n| **Windows x64 Installer (Latest)** | [`RupeeCRM-Setup.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.395/RupeeCRM-Setup.exe) | `324M` | `793e9c0baaffac940fdfd38308d31198603b7c39fdf05cfe3bea26c0199be2de\r` |\n| **macOS ARM64 DMG (Versioned)** | [`RupeeCRM-1.0.395-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.395/RupeeCRM-1.0.395-arm64.dmg) | `369M` | `75ccb41af494205985c9d2738887545b5b4c527cf534b477d5b6f97942f01fd6` |\n| **macOS ARM64 DMG (Latest)** | [`RupeeCRM-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.395/RupeeCRM-arm64.dmg) | `369M` | `75ccb41af494205985c9d2738887545b5b4c527cf534b477d5b6f97942f01fd6` |\n| **In-App OTA Application Package** | [`rupeecrm.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.395/rupeecrm.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Legacy OTA Package** | [`billsoft.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.395/billsoft.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Dedicated Manual OTA Update Package** | [`RupeeCRM-Update-1.0.395.zip`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.395/RupeeCRM-Update-1.0.395.zip) | `~81 MB` | See `.sha256` |\n| **Integrity Checksums** | [`SHA256SUMS.txt`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.395/SHA256SUMS.txt) | `<1 KB` | Checksum Manifest |\n\n### Verification (PowerShell)\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\RupeeCRM-Setup-1.0.395-x64.exe).Hash -eq \"793e9c0baaffac940fdfd38308d31198603b7c39fdf05cfe3bea26c0199be2de\r\"\n```\n\n### Verification (macOS Terminal)\n```bash\nshasum -a 256 RupeeCRM-1.0.395-arm64.dmg\n```\n\n> [!NOTE]\n> Official stable production release v1.0.395. All distributable packages are published and downloadable.\n",
+      "is_latest_stable": false,
+      "is_prerelease": false,
+      "downloads": {
+        "windows": {
+          "available": true,
+          "filename": "RupeeCRM-Setup-1.0.395-x64.exe",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.395/RupeeCRM-Setup-1.0.395-x64.exe",
+          "size": "323.7 MB",
+          "bytes": 339431928,
+          "arch": "64-bit (x64)",
+          "sha256": "793e9c0baaffac940fdfd38308d31198603b7c39fdf05cfe3bea26c0199be2de",
+          "type": "Standalone Executable Setup"
+        },
+        "mac_arm64": {
+          "available": true,
+          "filename": "RupeeCRM-1.0.395-arm64.dmg",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.395/RupeeCRM-1.0.395-arm64.dmg",
+          "size": "368.5 MB",
+          "bytes": 386437565,
+          "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+          "sha256": "75ccb41af494205985c9d2738887545b5b4c527cf534b477d5b6f97942f01fd6",
+          "type": "Apple Disk Image (DMG)"
+        },
+        "mac_intel": {
+          "available": false,
+          "filename": null,
+          "url": null,
+          "size": null,
+          "bytes": 0,
+          "arch": "Intel (x64)",
+          "sha256": null,
+          "type": "Apple Disk Image (DMG)"
+        }
+      }
+    },
+    {
+      "tag": "v1.0.394",
+      "version": "1.0.394",
+      "name": "RupeeCRM v1.0.394 (Build 394)",
+      "published_at": "2026-11-25T08:57:16Z",
+      "html_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.394",
+      "body": "# RupeeCRM v1.0.394 (Build 394)\n\n**Release Date:** November 25, 2026  \n**Application Version:** `v1.0.394` (Build 394)  \n**Branch:** `PROD`  \n\n---\n\n## Overview\n\nRupeeCRM v1.0.394 production release providing offline-first business management, invoicing, inventory intelligence, and CRM desktop capabilities.\n\n---\n\n## What's New\n\n- Performance optimizations, security updates, and stability improvements across all core business modules.\n\n---\n\n## Improvements\n\n- Enhanced database safety guards, tenant isolation verification, and transaction stability.\n- Optimized startup supervisor lifecycle and background resource management.\n\n---\n\n## Bug Fixes\n\n- General regression remedies and runtime stability fixes.\n\n---\n\n## Important Upgrade Notes\n\n- Customer databases, firms, licenses, and configurations are 100% preserved.\n- Automatic schema updates are applied safely and transactionally on launch.\n\n---\n\n### Downloadable Distribution Packages\n| Package Type | File | Size | SHA256 Checksum |\n|---|---|---|---|\n| **Windows x64 Installer (Versioned)** | [`RupeeCRM-Setup-1.0.394-x64.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.394/RupeeCRM-Setup-1.0.394-x64.exe) | `324M` | `d0d321788d7c82937bbceb0a2c150afb84fb3fc37f50f2d7f246b78e545cbd91\r` |\n| **Windows x64 Installer (Latest)** | [`RupeeCRM-Setup.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.394/RupeeCRM-Setup.exe) | `324M` | `d0d321788d7c82937bbceb0a2c150afb84fb3fc37f50f2d7f246b78e545cbd91\r` |\n| **macOS ARM64 DMG (Versioned)** | [`RupeeCRM-1.0.394-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.394/RupeeCRM-1.0.394-arm64.dmg) | `369M` | `e3fe9c14fd367b07518cd7557c14af5bc624c056a5584046f615791cf47c3bb9` |\n| **macOS ARM64 DMG (Latest)** | [`RupeeCRM-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.394/RupeeCRM-arm64.dmg) | `369M` | `e3fe9c14fd367b07518cd7557c14af5bc624c056a5584046f615791cf47c3bb9` |\n| **In-App OTA Application Package** | [`rupeecrm.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.394/rupeecrm.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Legacy OTA Package** | [`billsoft.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.394/billsoft.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Dedicated Manual OTA Update Package** | [`RupeeCRM-Update-1.0.394.zip`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.394/RupeeCRM-Update-1.0.394.zip) | `~81 MB` | See `.sha256` |\n| **Integrity Checksums** | [`SHA256SUMS.txt`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.394/SHA256SUMS.txt) | `<1 KB` | Checksum Manifest |\n\n### Verification (PowerShell)\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\RupeeCRM-Setup-1.0.394-x64.exe).Hash -eq \"d0d321788d7c82937bbceb0a2c150afb84fb3fc37f50f2d7f246b78e545cbd91\r\"\n```\n\n### Verification (macOS Terminal)\n```bash\nshasum -a 256 RupeeCRM-1.0.394-arm64.dmg\n```\n\n> [!NOTE]\n> Official stable production release v1.0.394. All distributable packages are published and downloadable.\n",
+      "is_latest_stable": false,
+      "is_prerelease": false,
+      "downloads": {
+        "windows": {
+          "available": true,
+          "filename": "RupeeCRM-Setup-1.0.394-x64.exe",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.394/RupeeCRM-Setup-1.0.394-x64.exe",
+          "size": "323.6 MB",
+          "bytes": 339292219,
+          "arch": "64-bit (x64)",
+          "sha256": "d0d321788d7c82937bbceb0a2c150afb84fb3fc37f50f2d7f246b78e545cbd91",
+          "type": "Standalone Executable Setup"
+        },
+        "mac_arm64": {
+          "available": true,
+          "filename": "RupeeCRM-1.0.394-arm64.dmg",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.394/RupeeCRM-1.0.394-arm64.dmg",
+          "size": "368.4 MB",
+          "bytes": 386246680,
+          "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+          "sha256": "e3fe9c14fd367b07518cd7557c14af5bc624c056a5584046f615791cf47c3bb9",
+          "type": "Apple Disk Image (DMG)"
+        },
+        "mac_intel": {
+          "available": false,
+          "filename": null,
+          "url": null,
+          "size": null,
+          "bytes": 0,
+          "arch": "Intel (x64)",
+          "sha256": null,
+          "type": "Apple Disk Image (DMG)"
+        }
+      }
+    },
+    {
+      "tag": "v1.0.390",
+      "version": "1.0.390",
+      "name": "RupeeCRM v1.0.390 (Build 390)",
+      "published_at": "2026-11-25T08:07:08Z",
+      "html_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.390",
+      "body": "# RupeeCRM v1.0.390 (Build 390)\n\n**Release Date:** November 25, 2026  \n**Application Version:** `v1.0.390` (Build 390)  \n**Branch:** `PROD`  \n\n---\n\n## Overview\n\nRupeeCRM v1.0.390 introduces a centralized, version-based release-notes delivery engine and public metadata standardization across the desktop application updater and public distribution channels. This update ensures that users inspecting available software updates in RupeeCRM receive accurate, human-readable change summaries rather than raw internal build manifest strings, while preserving all existing cryptographic verification and downgrade protection.\n\n---\n\n## What's New\n\n- **Centralized Version-Based Release Notes:** Introduced `ReleaseNotesService` and authoritative `release-notes.json` mapping semantic versions to user-facing change summaries.\n- **Offline-First Multi-Tier Caching:** Implemented a resilient fallback chain (remote HTTPS -> atomic local cache -> bundled classpath resources -> clean neutral fallback), ensuring release notes are always viewable offline.\n- **Software Update UI Hardening:** Hardened the in-app Software Update screen to isolate version numbers, format rich bullet lists, enforce scrollable heights for long notes, and suppress raw build manifest placeholders.\n- **Public Release-Notes API:** Exposed authenticated/public `GET /api/system/release-notes?version=X.Y.Z` with strict regex XSS sanitization and payload size limits.\n\n---\n\n## Improvements\n\n- **Standardized 6-Section Release Automation:** Automated GitHub Actions packaging to dynamically extract version notes and generate consistent, production-grade release descriptions.\n- **Public Repository Metadata Documentation:** Standardized public repository descriptions, topics, and documentation templates without exposing internal architecture or sensitive infrastructure.\n- **Strict Verification Checks:** Maintained 100% cryptographic Ed25519 manifest signing and SHA-256 package verification with zero weakening of updater security.\n\n---\n\n## Bug Fixes\n\n- Resolved test assertion mismatch in forecasting resync test when forecasts are already up to date.\n- Eliminated raw placeholder text (`RupeeCRM release build integrity manifest`) from the Software Update modal.\n\n---\n\n## Important Upgrade Notes\n\n- **Zero Data Loss:** Customer databases, invoices, inventory ledgers, settings, and encryption keys are fully preserved across upgrades.\n- **Non-Breaking Metadata:** Release notes metadata is purely additive and does not modify the underlying signed update manifest schema or download workflows.\n\n---\n\n### Downloadable Distribution Packages\n| Package Type | File | Size | SHA256 Checksum |\n|---|---|---|---|\n| **Windows x64 Installer (Versioned)** | [`RupeeCRM-Setup-1.0.390-x64.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.390/RupeeCRM-Setup-1.0.390-x64.exe) | `324M` | `d2cf155fd52ff3ac158fc4f584245909b3e88275cb3ada2f8dd462f4e1dde573` |\n| **Windows x64 Installer (Latest)** | [`RupeeCRM-Setup.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.390/RupeeCRM-Setup.exe) | `324M` | `d2cf155fd52ff3ac158fc4f584245909b3e88275cb3ada2f8dd462f4e1dde573` |\n| **macOS ARM64 DMG (Versioned)** | [`RupeeCRM-1.0.390-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.390/RupeeCRM-1.0.390-arm64.dmg) | `369M` | `7eb8ebddd55eba77f4dcbe341ad5fd229fad4c0198e6ee1ebb34546d72191b59` |\n| **macOS ARM64 DMG (Latest)** | [`RupeeCRM-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.390/RupeeCRM-arm64.dmg) | `369M` | `7eb8ebddd55eba77f4dcbe341ad5fd229fad4c0198e6ee1ebb34546d72191b59` |\n| **In-App OTA Application Package** | [`rupeecrm.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.390/rupeecrm.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Legacy OTA Package** | [`billsoft.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.390/billsoft.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Dedicated Manual OTA Update Package** | [`RupeeCRM-Update-1.0.390.zip`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.390/RupeeCRM-Update-1.0.390.zip) | `~81 MB` | See `.sha256` |\n| **Integrity Checksums** | [`SHA256SUMS.txt`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.390/SHA256SUMS.txt) | `<1 KB` | Checksum Manifest |\n\n### Verification (PowerShell)\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\RupeeCRM-Setup-1.0.390-x64.exe).Hash -eq \"d2cf155fd52ff3ac158fc4f584245909b3e88275cb3ada2f8dd462f4e1dde573\"\n```\n\n### Verification (macOS Terminal)\n```bash\nshasum -a 256 RupeeCRM-1.0.390-arm64.dmg\n```\n\n> [!NOTE]\n> Official stable production release v1.0.390. All distributable packages are published and downloadable.\n",
+      "is_latest_stable": false,
+      "is_prerelease": false,
+      "downloads": {
+        "windows": {
+          "available": true,
+          "filename": "RupeeCRM-Setup-1.0.390-x64.exe",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.390/RupeeCRM-Setup-1.0.390-x64.exe",
+          "size": "323.6 MB",
+          "bytes": 339298638,
+          "arch": "64-bit (x64)",
+          "sha256": "d2cf155fd52ff3ac158fc4f584245909b3e88275cb3ada2f8dd462f4e1dde573",
+          "type": "Standalone Executable Setup"
+        },
+        "mac_arm64": {
+          "available": true,
+          "filename": "RupeeCRM-1.0.390-arm64.dmg",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.390/RupeeCRM-1.0.390-arm64.dmg",
+          "size": "368.3 MB",
+          "bytes": 386202047,
+          "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+          "sha256": "7eb8ebddd55eba77f4dcbe341ad5fd229fad4c0198e6ee1ebb34546d72191b59",
+          "type": "Apple Disk Image (DMG)"
+        },
+        "mac_intel": {
+          "available": false,
+          "filename": null,
+          "url": null,
+          "size": null,
+          "bytes": 0,
+          "arch": "Intel (x64)",
+          "sha256": null,
+          "type": "Apple Disk Image (DMG)"
+        }
+      }
+    },
+    {
+      "tag": "v1.0.389",
+      "version": "1.0.389",
+      "name": "RupeeCRM v1.0.389 (Build 389)",
+      "published_at": "2026-11-25T07:34:39Z",
+      "html_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.389",
+      "body": "# RupeeCRM v1.0.389\n\n**Release Date:** November 25, 2026  \n**Application Version:** `v1.0.389` (Build 389)  \n**Branch:** `PROD`  \n\n---\n\n## Overview\n\nRupeeCRM v1.0.389 introduces a unified inventory ordering and forecasting intelligence experience, bringing manual order compilation, supplier management, and automated demand replenishment into a single streamlined workspace. This release also establishes independent transaction boundaries for multi-vendor purchasing and automated background forecast synchronization.\n\n---\n\n## What's New\n\n- **Unified Order Products Workspace:** A consolidated workspace combining manual stock replenishment and forecast-driven reordering into a seamless multi-step order creation flow.\n- **Multi-Vendor Purchasing in One Session:** Add products from different suppliers in a single order session, with automatic vendor grouping and per-supplier purchase order generation.\n- **Contextual Inventory Navigation:** Five dedicated contextual subtabs in Inventory (Products & Stock, Order Products, Demand & Forecasts, Archive, and Movement Ledger) for rapid view switching without clutter.\n\n---\n\n## Improvements\n\n- **Independent Multi-Supplier Transactions:** Each supplier's purchase order is executed within its own isolated database transaction, ensuring that an issue with one vendor order does not abort orders for other vendors.\n- **Automated Forecast Synchronization:** Headless background synchronization service running on a 6-hour freshness lifecycle, keeping inventory demand forecasts current with non-intrusive status indicators.\n- **Normalized Statement Reporting:** Standardized forecasting analytics statement parameters across JSON, CSV, and PDF exports.\n- **Product Drawer Integration:** Direct delegation from Product Details to the Order Products workspace with pre-populated item details.\n\n---\n\n## Bug Fixes\n\n- **Batch Purchase Order Idempotency:** Fixed duplicate submission collisions in multi-supplier batches to ensure unique purchase order numbers and durable per-supplier retry tracking.\n- **Intermittent Demand Obsolescence Modeling:** Corrected decay threshold calibration in Croston and TSB forecasting models.\n\n---\n\n## Important Upgrade Notes\n\n- Existing purchase orders, inventory counts, product masters, and settings are fully preserved.\n- Automatic database schema updates are applied seamlessly upon launch.\n\n---\n\n### Downloadable Distribution Packages\n\n| Package Type | File | Size | SHA256 Checksum |\n|---|---|---|---|\n| **Windows x64 Installer (Versioned)** | [`RupeeCRM-Setup-1.0.389-x64.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.389/RupeeCRM-Setup-1.0.389-x64.exe) | `324M` | `0d2c3d82a1268e1a5833ffeb4db6bb6e7a4a348f75f0e37a4316011649b5b51f` |\n| **Windows x64 Installer (Latest)** | [`RupeeCRM-Setup.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.389/RupeeCRM-Setup.exe) | `324M` | `0d2c3d82a1268e1a5833ffeb4db6bb6e7a4a348f75f0e37a4316011649b5b51f` |\n| **macOS ARM64 DMG (Versioned)** | [`RupeeCRM-1.0.389-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.389/RupeeCRM-1.0.389-arm64.dmg) | `369M` | `721bfcb2be1b4987e26b63d5737657dfe146094105359de38eca0a176af2ca41` |\n| **macOS ARM64 DMG (Latest)** | [`RupeeCRM-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.389/RupeeCRM-arm64.dmg) | `369M` | `721bfcb2be1b4987e26b63d5737657dfe146094105359de38eca0a176af2ca41` |\n| **In-App OTA Application Package** | [`rupeecrm.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.389/rupeecrm.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Legacy OTA Package** | [`billsoft.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.389/billsoft.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Dedicated Manual OTA Update Package** | [`RupeeCRM-Update-1.0.389.zip`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.389/RupeeCRM-Update-1.0.389.zip) | `~81 MB` | See `.sha256` |\n| **Integrity Checksums** | [`SHA256SUMS.txt`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.389/SHA256SUMS.txt) | `<1 KB` | Checksum Manifest |\n\n### Verification (PowerShell)\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\RupeeCRM-Setup-1.0.389-x64.exe).Hash -eq \"0d2c3d82a1268e1a5833ffeb4db6bb6e7a4a348f75f0e37a4316011649b5b51f\"\n```\n\n### Verification (macOS Terminal)\n```bash\nshasum -a 256 RupeeCRM-1.0.389-arm64.dmg\n```\n\n> [!NOTE]\n> Official stable production release v1.0.389. All distributable packages are published and downloadable.\n",
+      "is_latest_stable": false,
+      "is_prerelease": false,
+      "downloads": {
+        "windows": {
+          "available": true,
+          "filename": "RupeeCRM-Setup-1.0.389-x64.exe",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.389/RupeeCRM-Setup-1.0.389-x64.exe",
+          "size": "323.6 MB",
+          "bytes": 339275558,
+          "arch": "64-bit (x64)",
+          "sha256": "0d2c3d82a1268e1a5833ffeb4db6bb6e7a4a348f75f0e37a4316011649b5b51f",
+          "type": "Standalone Executable Setup"
+        },
+        "mac_arm64": {
+          "available": true,
+          "filename": "RupeeCRM-1.0.389-arm64.dmg",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.389/RupeeCRM-1.0.389-arm64.dmg",
+          "size": "368.3 MB",
+          "bytes": 386235561,
+          "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+          "sha256": "721bfcb2be1b4987e26b63d5737657dfe146094105359de38eca0a176af2ca41",
+          "type": "Apple Disk Image (DMG)"
+        },
+        "mac_intel": {
+          "available": false,
+          "filename": null,
+          "url": null,
+          "size": null,
+          "bytes": 0,
+          "arch": "Intel (x64)",
+          "sha256": null,
+          "type": "Apple Disk Image (DMG)"
+        }
+      }
+    },
+    {
+      "tag": "v1.0.386",
+      "version": "1.0.386",
+      "name": "RupeeCRM v1.0.386 (Build 386)",
+      "published_at": "2026-11-24T21:19:23Z",
+      "html_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.386",
+      "body": "## RupeeCRM v1.0.386 (Build 386)\n\nOfficial production release built from branch `PROD`.\n\n### Build Information\n- **Application Version:** `v1.0.386`\n- **Release Tag:** `v1.0.386`\n- **Build Number:** `386`\n- **Commit SHA:** `e96f80d36cd320249ac5e53c15e5d3bab5ebd845`\n- **Branch:** `PROD`\n- **Workflow Run:** [#386](https://github.com/RanjeetYelave/Simple-Billing/actions/runs/45488265222)\n\n### Downloadable Distribution Packages\n| Package Type | File | Size | SHA256 Checksum |\n|---|---|---|---|\n| **Windows x64 Installer (Versioned)** | [`RupeeCRM-Setup-1.0.386-x64.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.386/RupeeCRM-Setup-1.0.386-x64.exe) | `324M` | `238882fe1c6b63813a79a8a5d26201f2381bc2ad221d2f126788ec44b06dc9d6\r` |\n| **Windows x64 Installer (Latest)** | [`RupeeCRM-Setup.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.386/RupeeCRM-Setup.exe) | `324M` | `238882fe1c6b63813a79a8a5d26201f2381bc2ad221d2f126788ec44b06dc9d6\r` |\n| **macOS ARM64 DMG (Versioned)** | [`RupeeCRM-1.0.386-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.386/RupeeCRM-1.0.386-arm64.dmg) | `369M` | `d168a8f258c4dd9f9c4152c49602bb2fa715e998852d190f7282604d3d48cfe6` |\n| **macOS ARM64 DMG (Latest)** | [`RupeeCRM-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.386/RupeeCRM-arm64.dmg) | `369M` | `d168a8f258c4dd9f9c4152c49602bb2fa715e998852d190f7282604d3d48cfe6` |\n| **In-App OTA Application Package** | [`rupeecrm.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.386/rupeecrm.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Legacy OTA Package** | [`billsoft.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.386/billsoft.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Dedicated Manual OTA Update Package** | [`RupeeCRM-Update-1.0.386.zip`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.386/RupeeCRM-Update-1.0.386.zip) | `~81 MB` | See `.sha256` |\n| **Integrity Checksums** | [`SHA256SUMS.txt`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.386/SHA256SUMS.txt) | `<1 KB` | Checksum Manifest |\n\n### Verification (PowerShell)\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\RupeeCRM-Setup-1.0.386-x64.exe).Hash -eq \"238882fe1c6b63813a79a8a5d26201f2381bc2ad221d2f126788ec44b06dc9d6\r\"\n```\n\n### Verification (macOS Terminal)\n```bash\nshasum -a 256 RupeeCRM-1.0.386-arm64.dmg\n```\n\n> [!NOTE]\n> Official stable production release v1.0.386. All distributable packages are published and downloadable.\n",
+      "is_latest_stable": false,
+      "is_prerelease": false,
+      "downloads": {
+        "windows": {
+          "available": true,
+          "filename": "RupeeCRM-Setup-1.0.386-x64.exe",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.386/RupeeCRM-Setup-1.0.386-x64.exe",
+          "size": "323.5 MB",
+          "bytes": 339211111,
+          "arch": "64-bit (x64)",
+          "sha256": "238882fe1c6b63813a79a8a5d26201f2381bc2ad221d2f126788ec44b06dc9d6",
+          "type": "Standalone Executable Setup"
+        },
+        "mac_arm64": {
+          "available": true,
+          "filename": "RupeeCRM-1.0.386-arm64.dmg",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.386/RupeeCRM-1.0.386-arm64.dmg",
+          "size": "368.2 MB",
+          "bytes": 386075156,
+          "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+          "sha256": "d168a8f258c4dd9f9c4152c49602bb2fa715e998852d190f7282604d3d48cfe6",
+          "type": "Apple Disk Image (DMG)"
+        },
+        "mac_intel": {
+          "available": false,
+          "filename": null,
+          "url": null,
+          "size": null,
+          "bytes": 0,
+          "arch": "Intel (x64)",
+          "sha256": null,
+          "type": "Apple Disk Image (DMG)"
+        }
+      }
+    },
+    {
+      "tag": "v1.0.384",
+      "version": "1.0.384",
+      "name": "RupeeCRM v1.0.384 (Build 384)",
+      "published_at": "2026-11-24T20:09:44Z",
+      "html_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.384",
+      "body": "## RupeeCRM v1.0.384 (Build 384)\n\nOfficial production release built from branch `PROD`.\n\n### Build Information\n- **Application Version:** `v1.0.384`\n- **Release Tag:** `v1.0.384`\n- **Build Number:** `384`\n- **Commit SHA:** `f1a3de9821a5aa74882ace7c0f64c2ed060a7352`\n- **Branch:** `PROD`\n- **Workflow Run:** [#384](https://github.com/RanjeetYelave/Simple-Billing/actions/runs/45467217325)\n\n### Downloadable Distribution Packages\n| Package Type | File | Size | SHA256 Checksum |\n|---|---|---|---|\n| **Windows x64 Installer (Versioned)** | [`RupeeCRM-Setup-1.0.384-x64.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.384/RupeeCRM-Setup-1.0.384-x64.exe) | `324M` | `6fd7bc9bea683d1ef469f481a3747f4925ee4d2b274151675f1277d3feef8101\r` |\n| **Windows x64 Installer (Latest)** | [`RupeeCRM-Setup.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.384/RupeeCRM-Setup.exe) | `324M` | `6fd7bc9bea683d1ef469f481a3747f4925ee4d2b274151675f1277d3feef8101\r` |\n| **macOS ARM64 DMG (Versioned)** | [`RupeeCRM-1.0.384-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.384/RupeeCRM-1.0.384-arm64.dmg) | `369M` | `2a2d591140b888a1596d0325931dbf2ac30a2dfd502a4c636ac830005f1d5282` |\n| **macOS ARM64 DMG (Latest)** | [`RupeeCRM-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.384/RupeeCRM-arm64.dmg) | `369M` | `2a2d591140b888a1596d0325931dbf2ac30a2dfd502a4c636ac830005f1d5282` |\n| **In-App OTA Application Package** | [`rupeecrm.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.384/rupeecrm.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Legacy OTA Package** | [`billsoft.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.384/billsoft.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Dedicated Manual OTA Update Package** | [`RupeeCRM-Update-1.0.384.zip`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.384/RupeeCRM-Update-1.0.384.zip) | `~81 MB` | See `.sha256` |\n| **Integrity Checksums** | [`SHA256SUMS.txt`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.384/SHA256SUMS.txt) | `<1 KB` | Checksum Manifest |\n\n### Verification (PowerShell)\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\RupeeCRM-Setup-1.0.384-x64.exe).Hash -eq \"6fd7bc9bea683d1ef469f481a3747f4925ee4d2b274151675f1277d3feef8101\r\"\n```\n\n### Verification (macOS Terminal)\n```bash\nshasum -a 256 RupeeCRM-1.0.384-arm64.dmg\n```\n\n> [!NOTE]\n> Official stable production release v1.0.384. All distributable packages are published and downloadable.\n",
+      "is_latest_stable": false,
+      "is_prerelease": false,
+      "downloads": {
+        "windows": {
+          "available": true,
+          "filename": "RupeeCRM-Setup-1.0.384-x64.exe",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.384/RupeeCRM-Setup-1.0.384-x64.exe",
+          "size": "323.5 MB",
+          "bytes": 339209398,
+          "arch": "64-bit (x64)",
+          "sha256": "6fd7bc9bea683d1ef469f481a3747f4925ee4d2b274151675f1277d3feef8101",
+          "type": "Standalone Executable Setup"
+        },
+        "mac_arm64": {
+          "available": true,
+          "filename": "RupeeCRM-1.0.384-arm64.dmg",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.384/RupeeCRM-1.0.384-arm64.dmg",
+          "size": "368.3 MB",
+          "bytes": 386168906,
+          "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+          "sha256": "2a2d591140b888a1596d0325931dbf2ac30a2dfd502a4c636ac830005f1d5282",
+          "type": "Apple Disk Image (DMG)"
+        },
+        "mac_intel": {
+          "available": false,
+          "filename": null,
+          "url": null,
+          "size": null,
+          "bytes": 0,
+          "arch": "Intel (x64)",
+          "sha256": null,
+          "type": "Apple Disk Image (DMG)"
+        }
+      }
+    },
+    {
+      "tag": "v1.0.383",
+      "version": "1.0.383",
+      "name": "RupeeCRM v1.0.383 (Build 383)",
+      "published_at": "2026-11-24T15:52:25Z",
+      "html_url": "https://github.com/RanjeetYelave/Simple-Billing/releases/tag/v1.0.383",
+      "body": "## RupeeCRM v1.0.383 (Build 383)\n\nOfficial production release built from branch `PROD`.\n\n### Build Information\n- **Application Version:** `v1.0.383`\n- **Release Tag:** `v1.0.383`\n- **Build Number:** `383`\n- **Commit SHA:** `b9c93844606cd9fa40d4ce74669154c2f6aa1ee9`\n- **Branch:** `PROD`\n- **Workflow Run:** [#383](https://github.com/RanjeetYelave/Simple-Billing/actions/runs/45428933330)\n\n### Downloadable Distribution Packages\n| Package Type | File | Size | SHA256 Checksum |\n|---|---|---|---|\n| **Windows x64 Installer (Versioned)** | [`RupeeCRM-Setup-1.0.383-x64.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.383/RupeeCRM-Setup-1.0.383-x64.exe) | `324M` | `f6923834c144ce25693e27cae4e090caf320cfd4523151a28940a93ace250ce2\r` |\n| **Windows x64 Installer (Latest)** | [`RupeeCRM-Setup.exe`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.383/RupeeCRM-Setup.exe) | `324M` | `f6923834c144ce25693e27cae4e090caf320cfd4523151a28940a93ace250ce2\r` |\n| **macOS ARM64 DMG (Versioned)** | [`RupeeCRM-1.0.383-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.383/RupeeCRM-1.0.383-arm64.dmg) | `369M` | `4b61aa6d033e476e87786eb1f104e347202f84122d8a61e3545aa1cf17f4085c` |\n| **macOS ARM64 DMG (Latest)** | [`RupeeCRM-arm64.dmg`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.383/RupeeCRM-arm64.dmg) | `369M` | `4b61aa6d033e476e87786eb1f104e347202f84122d8a61e3545aa1cf17f4085c` |\n| **In-App OTA Application Package** | [`rupeecrm.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.383/rupeecrm.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Legacy OTA Package** | [`billsoft.war`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.383/billsoft.war) | `~84 MB` | See `SHA256SUMS.txt` |\n| **Dedicated Manual OTA Update Package** | [`RupeeCRM-Update-1.0.383.zip`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.383/RupeeCRM-Update-1.0.383.zip) | `~81 MB` | See `.sha256` |\n| **Integrity Checksums** | [`SHA256SUMS.txt`](https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.383/SHA256SUMS.txt) | `<1 KB` | Checksum Manifest |\n\n### Verification (PowerShell)\n```powershell\n(Get-FileHash -Algorithm SHA256 .\\RupeeCRM-Setup-1.0.383-x64.exe).Hash -eq \"f6923834c144ce25693e27cae4e090caf320cfd4523151a28940a93ace250ce2\r\"\n```\n\n### Verification (macOS Terminal)\n```bash\nshasum -a 256 RupeeCRM-1.0.383-arm64.dmg\n```\n\n> [!NOTE]\n> Official stable production release v1.0.383. All distributable packages are published and downloadable.\n",
+      "is_latest_stable": false,
+      "is_prerelease": false,
+      "downloads": {
+        "windows": {
+          "available": true,
+          "filename": "RupeeCRM-Setup-1.0.383-x64.exe",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.383/RupeeCRM-Setup-1.0.383-x64.exe",
+          "size": "323.5 MB",
+          "bytes": 339206316,
+          "arch": "64-bit (x64)",
+          "sha256": "f6923834c144ce25693e27cae4e090caf320cfd4523151a28940a93ace250ce2",
+          "type": "Standalone Executable Setup"
+        },
+        "mac_arm64": {
+          "available": true,
+          "filename": "RupeeCRM-1.0.383-arm64.dmg",
+          "url": "https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.383/RupeeCRM-1.0.383-arm64.dmg",
+          "size": "368.2 MB",
+          "bytes": 386109947,
+          "arch": "Apple Silicon (M1 / M2 / M3 / M4)",
+          "sha256": "4b61aa6d033e476e87786eb1f104e347202f84122d8a61e3545aa1cf17f4085c",
+          "type": "Apple Disk Image (DMG)"
+        },
+        "mac_intel": {
+          "available": false,
+          "filename": null,
+          "url": null,
+          "size": null,
+          "bytes": 0,
+          "arch": "Intel (x64)",
+          "sha256": null,
+          "type": "Apple Disk Image (DMG)"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RupeeCRM — Complete Business Management Desktop Application</title>
+  <meta name="description" content="Official download center for RupeeCRM: An offline-first desktop business ERP covering GST billing, inventory forecasting, purchase orders, customer ledgers, and sales intelligence.">
+  <meta name="theme-color" content="#16845B">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="RupeeCRM — Complete Business Management Desktop Application">
+  <meta property="og:description" content="Download official installers for RupeeCRM on Windows (x64) and macOS (Apple Silicon). Offline-first desktop ERP and billing software.">
+  <meta property="og:image" content="assets/images/app-icon.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="assets/images/app-icon.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#hero" class="nav-brand">
+          <img src="assets/images/logo.png" alt="RupeeCRM Logo" class="nav-logo">
+          <span class="nav-badge">Desktop</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#downloads" class="nav-link">Downloads</a></li>
+          <li><a href="#screenshots" class="nav-link">Screenshots</a></li>
+          <li><a href="#installation" class="nav-link">Installation</a></li>
+          <li><a href="#releases" class="nav-link">Release Notes</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="https://github.com/RanjeetYelave/Simple-Billing/releases" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub Releases ↗</a>
+          <a href="#downloads" class="btn btn-primary btn-sm">Download RupeeCRM</a>
+          <button class="nav-toggle" aria-label="Toggle navigation menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-pill">
+        <span class="dot"></span>
+        <span>Latest Production Release: <strong id="hero-version-badge">v1.0.398</strong></span>
+      </div>
+
+      <h1 class="hero-title">
+        Complete Business Management.<br>
+        <span>One Powerful Desktop Application.</span>
+      </h1>
+
+      <p class="hero-desc">
+        RupeeCRM is an enterprise-grade desktop ERP engineered for modern retail, wholesale, and multi-firm businesses. Unify GST invoicing, inventory forecasting, purchase orders, customer ledgers, and financial intelligence with 100% offline-first reliability.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#downloads" class="btn btn-primary btn-lg" id="hero-download-btn">
+          <span>Download RupeeCRM</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </a>
+        <a href="#features" class="btn btn-outline btn-lg">Explore Capabilities</a>
+      </div>
+
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand-primary)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+          <span>Offline-First (Zero Cloud Lock-in)</span>
+        </div>
+        <div class="hero-meta-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand-primary)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+          <span>Windows &amp; macOS Native</span>
+        </div>
+        <div class="hero-meta-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand-primary)" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+          <span>Embedded Database &amp; Automated Backups</span>
+        </div>
+      </div>
+
+      <!-- Hero Preview Window -->
+      <div class="hero-preview">
+        <div class="preview-frame">
+          <div class="preview-bar">
+            <div class="preview-dots">
+              <span class="preview-dot red"></span>
+              <span class="preview-dot yellow"></span>
+              <span class="preview-dot green"></span>
+            </div>
+            <span class="preview-title">RupeeCRM Desktop Workspace — Executive Business Overview</span>
+          </div>
+          <img src="assets/images/screenshots/dashboard.png" alt="RupeeCRM Desktop Application Interface" class="preview-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Center -->
+  <section class="section" id="downloads">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Official Download Center</span>
+        <h2 class="section-title">Get RupeeCRM for Your Operating System</h2>
+        <p class="section-desc">Download production-verified installers. Each build includes the complete embedded Java runtime and local database engine with zero external dependencies.</p>
+      </div>
+
+      <div class="download-grid">
+        <!-- Windows Card -->
+        <div class="download-card" id="win-download-card">
+          <div class="card-top">
+            <div class="card-icon">
+              <!-- Windows Logo SVG -->
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.902-1.799"/>
+              </svg>
+            </div>
+            <span class="card-badge">Windows 10 / 11</span>
+          </div>
+
+          <h3 class="card-title">Windows x64</h3>
+          <p class="card-subtitle">Standalone installer package for 64-bit Windows environments.</p>
+
+          <div class="card-specs">
+            <div class="spec-item">
+              <span class="spec-label">Version</span>
+              <span class="spec-value" id="win-version">v1.0.398</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">File Size</span>
+              <span class="spec-value" id="win-size">323.6 MB</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Architecture</span>
+              <span class="spec-value">64-bit (x64)</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Release Date</span>
+              <span class="spec-value" id="win-date">Nov 25, 2026</span>
+            </div>
+          </div>
+
+          <div class="card-checksum">
+            <span>SHA-256: <strong id="win-sha256" class="checksum-hash">5e22dbba36297332a6985da54aab16c82fb54bd12c50c5945cb6caa3e4262c7a</strong></span>
+            <button class="copy-btn" data-target="win-sha256" title="Copy SHA-256">Copy</button>
+          </div>
+
+          <div class="card-action" style="margin-top:20px;">
+            <a href="https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-Setup-1.0.398-x64.exe" class="btn btn-primary btn-lg" id="win-download-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+              <span>Download for Windows (.exe)</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- macOS Card -->
+        <div class="download-card" id="mac-download-card">
+          <div class="card-top">
+            <div class="card-icon">
+              <!-- Apple Logo SVG -->
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.18c.65-.79 1.09-1.89.97-2.99-.95.04-2.09.63-2.77 1.42-.59.68-1.12 1.78-.98 2.87 1.05.08 2.13-.51 2.78-1.3z"/>
+              </svg>
+            </div>
+            <span class="card-badge">macOS 12+ (Monterey / Ventura / Sonoma / Sequoia)</span>
+          </div>
+
+          <h3 class="card-title">macOS Apple Silicon</h3>
+          <p class="card-subtitle">Native Apple Silicon DMG package for M1, M2, M3, and M4 Macs.</p>
+
+          <div class="card-specs">
+            <div class="spec-item">
+              <span class="spec-label">Version</span>
+              <span class="spec-value" id="mac-version">v1.0.398</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">File Size</span>
+              <span class="spec-value" id="mac-size">368.4 MB</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Architecture</span>
+              <span class="spec-value">Apple Silicon (arm64)</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Release Date</span>
+              <span class="spec-value" id="mac-date">Nov 25, 2026</span>
+            </div>
+          </div>
+
+          <div class="card-checksum">
+            <span>SHA-256: <strong id="mac-sha256" class="checksum-hash">acc04759289b3f0992660f227c7510f61af22f462d3194501dc64e784c68b2d4</strong></span>
+            <button class="copy-btn" data-target="mac-sha256" title="Copy SHA-256">Copy</button>
+          </div>
+
+          <div class="card-action" style="margin-top:20px;">
+            <a href="https://github.com/RanjeetYelave/Simple-Billing/releases/download/v1.0.398/RupeeCRM-1.0.398-arm64.dmg" class="btn btn-primary btn-lg" id="mac-download-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+              <span>Download for macOS (.dmg)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="download-notice">
+        <strong>Hardware Notice for Intel Macs:</strong> RupeeCRM currently publishes native 64-bit installers for Windows (x64) and macOS Apple Silicon (arm64). Users on Intel-based Macs can run the application via Rosetta 2 translation. View all historical releases and raw archives on the <a href="https://github.com/RanjeetYelave/Simple-Billing/releases" target="_blank" rel="noopener noreferrer">official GitHub Releases repository</a>.
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section section-alt" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Core Capabilities</span>
+        <h2 class="section-title">Engineered for Operational Excellence</h2>
+        <p class="section-desc">Every tool you need to run high-volume invoicing, multi-firm operations, inventory forecasting, and financial tracking without complexity.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3 class="feature-title">GST Billing &amp; Invoicing</h3>
+          <p class="feature-desc">Generate GST-compliant tax invoices, quotations, and estimates with automated CGST/SGST/IGST computations, customizable print themes, and multi-tab document editing.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3 class="feature-title">Real-Time Inventory</h3>
+          <p class="feature-desc">Track physical stock balances in real time, configure minimum threshold levels, manage batch records, and execute instant stock adjustments with immutable audit history.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 class="feature-title">PO &amp; Partial Receiving</h3>
+          <p class="feature-desc">Manage procurement lifecycles end-to-end. Issue vendor Purchase Orders, receive items in single or partial shipments, and automatically reconcile vendor accounts payable.</p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="feature-title">Customers &amp; Suppliers</h3>
+          <p class="feature-desc">Maintain centralized party ledgers with credit terms, outstanding balances, comprehensive payment histories, and firm-isolated tenant profiles.</p>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3 class="feature-title">AI Demand Forecasting</h3>
+          <p class="feature-desc">Predict inventory run-out risks and replenishment requirements using embedded statistical demand algorithms, sales velocity analysis, and smart reorder advisories.</p>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="feature-title">Offline-First Data Security</h3>
+          <p class="feature-desc">Zero mandatory cloud sync. Your financial data stays entirely on your local machine with automated background snapshots, instant recovery, and military-grade encryption.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshot Gallery -->
+  <section class="section" id="screenshots">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">User Experience</span>
+        <h2 class="section-title">Designed for Speed and Clarity</h2>
+        <p class="section-desc">Inspect genuine screenshots captured from the active RupeeCRM desktop application.</p>
+      </div>
+
+      <div class="gallery-nav">
+        <button class="gallery-btn active" data-target="dashboard">Executive Dashboard</button>
+        <button class="gallery-btn" data-target="invoicing">Invoice Creation Workspace</button>
+        <button class="gallery-btn" data-target="inventory">Smart Inventory Forecasting</button>
+        <button class="gallery-btn" data-target="invoices-list">Invoices &amp; Ledger Hub</button>
+      </div>
+
+      <div class="gallery-viewport">
+        <!-- Item 1 -->
+        <div class="gallery-item active" id="gallery-dashboard">
+          <img src="assets/images/screenshots/dashboard.png" alt="RupeeCRM Executive Dashboard Screenshot">
+          <div class="gallery-caption">
+            <div>
+              <h4 class="caption-title">Executive Dashboard</h4>
+              <p class="caption-desc">Real-time KPI metrics, revenue aggregations, outstanding balances, and recent sales velocity.</p>
+            </div>
+            <span class="card-badge">Click to Enlarge</span>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-item" id="gallery-invoicing">
+          <img src="assets/images/screenshots/invoice-editor.png" alt="RupeeCRM Invoicing Workspace Screenshot">
+          <div class="gallery-caption">
+            <div>
+              <h4 class="caption-title">GST Invoicing Workspace</h4>
+              <p class="caption-desc">Full keyboard-driven billing, item autocomplete, multi-tax auto-calculation, and multi-tab draft preservation.</p>
+            </div>
+            <span class="card-badge">Click to Enlarge</span>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-item" id="gallery-inventory">
+          <img src="assets/images/screenshots/inventory-forecast.png" alt="RupeeCRM Inventory Demand Forecasting Screenshot">
+          <div class="gallery-caption">
+            <div>
+              <h4 class="caption-title">Smart Inventory &amp; Restock Advisory</h4>
+              <p class="caption-desc">Automated stockout risk breakdown, 30D/90D/180D velocity filters, and one-click purchase order drafting.</p>
+            </div>
+            <span class="card-badge">Click to Enlarge</span>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-item" id="gallery-invoices-list">
+          <img src="assets/images/screenshots/invoices-list.png" alt="RupeeCRM Invoices and Ledger Hub Screenshot">
+          <div class="gallery-caption">
+            <div>
+              <h4 class="caption-title">Sales Documents Hub</h4>
+              <p class="caption-desc">Complete transactional history, payment status tracking, PDF generation, and firm-level data isolation.</p>
+            </div>
+            <span class="card-badge">Click to Enlarge</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Installation Guide -->
+  <section class="section section-alt" id="installation">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Step-by-Step Instructions</span>
+        <h2 class="section-title">Getting Started in Minutes</h2>
+        <p class="section-desc">Follow the verified installation guide for your desktop operating system.</p>
+      </div>
+
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="win">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.902-1.799"/></svg>
+          <span>Windows Guide</span>
+        </button>
+        <button class="tab-btn" data-tab="mac">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.18c.65-.79 1.09-1.89.97-2.99-.95.04-2.09.63-2.77 1.42-.59.68-1.12 1.78-.98 2.87 1.05.08 2.13-.51 2.78-1.3z"/></svg>
+          <span>macOS Guide</span>
+        </button>
+      </div>
+
+      <!-- Windows Pane -->
+      <div class="tab-pane active" id="tab-win">
+        <div class="guide-steps">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h4 class="step-title">Download Installer</h4>
+            <p class="step-desc">Click the Download for Windows button above to download the latest <code>RupeeCRM-Setup-x64.exe</code> package.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h4 class="step-title">Run Setup Package</h4>
+            <p class="step-desc">Double-click the downloaded executable. If prompted by Windows UAC, click "Yes" to grant installation permissions.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h4 class="step-title">Follow Setup Wizard</h4>
+            <p class="step-desc">Accept the installation destination directory. The wizard will automatically deploy all required desktop runtime components.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <h4 class="step-title">Launch &amp; Register</h4>
+            <p class="step-desc">Launch RupeeCRM from your desktop shortcut or Start Menu. Set up your primary firm name and begin billing immediately.</p>
+          </div>
+        </div>
+
+        <div class="guide-alert">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <div>
+            <strong>Windows SmartScreen Note:</strong> Because RupeeCRM is distributed directly via GitHub Releases without an expensive commercial EV certificate, Windows Defender SmartScreen may display an alert. Click <em>"More info"</em> and then select <em>"Run anyway"</em> to proceed.
+          </div>
+        </div>
+      </div>
+
+      <!-- macOS Pane -->
+      <div class="tab-pane" id="tab-mac">
+        <div class="guide-steps">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h4 class="step-title">Download Apple Silicon DMG</h4>
+            <p class="step-desc">Download the official <code>RupeeCRM-arm64.dmg</code> disk image designed for M1/M2/M3/M4 Macs.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h4 class="step-title">Mount Disk Image</h4>
+            <p class="step-desc">Double-click the downloaded <code>.dmg</code> file in Finder to open the RupeeCRM installer window.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h4 class="step-title">Drag to Applications</h4>
+            <p class="step-desc">Drag the <code>RupeeCRM.app</code> icon into your macOS <code>/Applications</code> folder shortcut.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <h4 class="step-title">Launch Application</h4>
+            <p class="step-desc">Open RupeeCRM from your Applications folder, Launchpad, or Spotlight search (Cmd + Space).</p>
+          </div>
+        </div>
+
+        <div class="guide-alert">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <div>
+            <strong>macOS Gatekeeper First-Launch Note:</strong> When opening for the first time, if macOS states the app is from an unidentified developer, open <strong>System Settings → Privacy &amp; Security</strong>, scroll down to the <em>Security</em> section, and click <strong>"Open Anyway"</strong>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- System Requirements -->
+  <section class="section" id="requirements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Specifications</span>
+        <h2 class="section-title">System Requirements</h2>
+        <p class="section-desc">RupeeCRM is lightweight, optimized for multi-core performance, and self-contained.</p>
+      </div>
+
+      <div class="req-grid">
+        <div class="req-card">
+          <h4 class="req-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.902-1.799"/></svg>
+            <span>Windows Specifications</span>
+          </h4>
+          <ul class="req-list">
+            <li><span class="req-name">Operating System</span> <span class="req-val">Windows 10, 11 (64-bit)</span></li>
+            <li><span class="req-name">Processor</span> <span class="req-val">1.6 GHz Intel / AMD Dual Core</span></li>
+            <li><span class="req-name">Memory (RAM)</span> <span class="req-val">4 GB minimum (8 GB recommended)</span></li>
+            <li><span class="req-name">Available Disk Space</span> <span class="req-val">1 GB free storage</span></li>
+            <li><span class="req-name">Java Runtime</span> <span class="req-val">Bundled internally (No separate JRE needed)</span></li>
+          </ul>
+        </div>
+
+        <div class="req-card">
+          <h4 class="req-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.18c.65-.79 1.09-1.89.97-2.99-.95.04-2.09.63-2.77 1.42-.59.68-1.12 1.78-.98 2.87 1.05.08 2.13-.51 2.78-1.3z"/></svg>
+            <span>macOS Specifications</span>
+          </h4>
+          <ul class="req-list">
+            <li><span class="req-name">Operating System</span> <span class="req-val">macOS 12.0 Monterey or higher</span></li>
+            <li><span class="req-name">Processor</span> <span class="req-val">Apple Silicon M1 / M2 / M3 / M4 (or Rosetta 2)</span></li>
+            <li><span class="req-name">Memory (RAM)</span> <span class="req-val">4 GB minimum (8 GB recommended)</span></li>
+            <li><span class="req-name">Available Disk Space</span> <span class="req-val">1.2 GB free storage</span></li>
+            <li><span class="req-name">Display Resolution</span> <span class="req-val">1280 x 800 minimum</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Release Notes -->
+  <section class="section section-alt" id="releases">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Continuous Delivery</span>
+        <h2 class="section-title">Production Release Notes</h2>
+        <p class="section-desc">Audit the changelog and verified updates fetched directly from the official repository releases.</p>
+      </div>
+
+      <div id="release-notes-container">
+        <!-- Rendered dynamically by main.js from data/releases.json -->
+        <div class="release-card">
+          <div class="release-header">
+            <div class="release-tag-group">
+              <span class="release-version">RupeeCRM v1.0.398 (Build 398)</span>
+              <span class="card-badge">Latest Stable</span>
+            </div>
+            <span class="release-date">November 25, 2026</span>
+          </div>
+          <div class="release-body">
+            <p>RupeeCRM v1.0.398 production release providing offline-first business management, invoicing, inventory intelligence, and CRM desktop capabilities.</p>
+            <ul>
+              <li>Enhanced database safety guards, tenant isolation verification, and transaction stability.</li>
+              <li>Optimized startup supervisor lifecycle and background workers.</li>
+              <li>Firm isolation and customer search autocomplete stabilization.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/logo.png" alt="RupeeCRM Logo" class="footer-logo">
+          <p class="footer-desc">
+            RupeeCRM is a high-performance offline-first desktop business management platform designed for retailers, wholesalers, and multi-firm enterprises.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Downloads</h4>
+          <ul class="footer-links">
+            <li><a href="#downloads" class="footer-link">Windows Installer (x64)</a></li>
+            <li><a href="#downloads" class="footer-link">macOS Apple Silicon (arm64)</a></li>
+            <li><a href="https://github.com/RanjeetYelave/Simple-Billing/releases" target="_blank" rel="noopener noreferrer" class="footer-link">All GitHub Releases</a></li>
+            <li><a href="#installation" class="footer-link">Installation Guide</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Product</h4>
+          <ul class="footer-links">
+            <li><a href="#features" class="footer-link">GST Invoicing</a></li>
+            <li><a href="#features" class="footer-link">Inventory Tracking</a></li>
+            <li><a href="#features" class="footer-link">Purchase Orders</a></li>
+            <li><a href="#features" class="footer-link">Demand Forecasting</a></li>
+            <li><a href="#requirements" class="footer-link">System Requirements</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Open Source &amp; Legal</h4>
+          <ul class="footer-links">
+            <li><a href="https://github.com/RanjeetYelave/Simple-Billing" target="_blank" rel="noopener noreferrer" class="footer-link">Source Repository</a></li>
+            <li><a href="https://github.com/RanjeetYelave/Simple-Billing/issues" target="_blank" rel="noopener noreferrer" class="footer-link">Issue Tracker</a></li>
+            <li><a href="#releases" class="footer-link">Release Notes</a></li>
+            <li><a href="https://github.com/RanjeetYelave/Simple-Billing/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" class="footer-link">License</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 RupeeCRM. All rights reserved. Designed with Emerald SaaS theme.</span>
+        <span>Current Production Version: <strong id="footer-version">v1.0.398</strong> (Build 398)</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="modal" id="lightbox-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="lightbox-close" aria-label="Close image preview">&times;</button>
+      <img src="" alt="Enlarged screenshot preview" class="modal-img" id="lightbox-img">
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">SHA-256 Checksum copied to clipboard!</div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
